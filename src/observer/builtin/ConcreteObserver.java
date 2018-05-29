@@ -11,7 +11,6 @@ public class ConcreteObserver implements Observer {
 	public ConcreteObserver(Observable subject, String name) {
 		this.subject = subject;
 		this.name = name;
-		this.subject.addObserver(this);
 	}
 
 	@Override
