@@ -10,7 +10,7 @@ public class Client {
 		abstractProductA = factory.createProductA();
 	}
 
-	public void Run() {
+	public void run() {
 		abstractProductB.interact(abstractProductA);
 	}
 }
