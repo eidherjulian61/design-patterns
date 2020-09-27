@@ -1,8 +1,7 @@
 package adapter;
 
 public class Adaptee {
-
-	void oldMethod() {
+	void specificRequest() {
+		System.out.println("Called specificRequest()");
 	}
-	
 }
